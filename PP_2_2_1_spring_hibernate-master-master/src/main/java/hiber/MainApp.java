@@ -41,18 +41,6 @@ public class MainApp {
          System.out.println("Car = "+user.getCar());
          System.out.println();
       }
-
-      // вывод
-      List<User> userWithCar = userService.list();
-      for (User u : userWithCar) {
-         System.out.println("Id = "+u.getId());
-         System.out.println("First Name = "+u.getFirstName());
-         System.out.println("Last Name = "+u.getLastName());
-         System.out.println("Email = "+u.getEmail());
-         System.out.println("Car = "+u.getCar());
-         System.out.println();
-      }
-
       context.close();
    }
 }
